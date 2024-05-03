@@ -1,10 +1,10 @@
 package ListaX;
 
 public class Carro {
-        public String cor;
-        public String modelo;
-        public int ano;
-        public String marca;
+        private String cor;
+        private String modelo;
+        private int ano;
+        private String marca;
             
         public Carro(String cor, String modelo, int ano, String marca){
                 this.cor = cor;

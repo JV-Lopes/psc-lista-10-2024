@@ -1,10 +1,10 @@
 package ListaX;
 
 public class Tenis {
-        public String marca;
-        public String tamanho;
-        public String cor;
-        public String material;
+        private String marca;
+        private String tamanho;
+        private String cor;
+        private String material;
         
         public Tenis(String material, String cor, String tamanho, String marca){
             this.material = material;

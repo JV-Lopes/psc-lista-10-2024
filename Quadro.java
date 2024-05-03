@@ -1,10 +1,10 @@
 package ListaX;
 
 public class Quadro {
-        public String artista;
-        public String anoDeCriacao;
-        public String tema;
-        public String tipo;
+        private String artista;
+        private String anoDeCriacao;
+        private String tema;
+        private String tipo;
         
         public Quadro(String artista, String anoDeCriacao, String tema, String tipo){
             this.artista = artista;

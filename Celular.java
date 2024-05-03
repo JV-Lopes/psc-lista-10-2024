@@ -1,10 +1,10 @@
 package ListaX;
 
     public class Celular{
-        public String marca;
-        public String modelo;
-        public String cor;
-        public String sistema;
+        private String marca;
+        private String modelo;
+        private String cor;
+        private String sistema;
         
         public Celular(String modelo, String cor, String sistema, String marca){
             this.sistema = sistema;

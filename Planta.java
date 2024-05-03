@@ -1,10 +1,10 @@
 package ListaX;
 
 public class Planta {
-        public String especie;
-        public double altura;
-        public double idade;
-        public String cor;
+        private String especie;
+        private double altura;
+        private double idade;
+        private String cor;
         
         public Planta(String especie, double altura, double idade, String cor){
             this.especie = especie;

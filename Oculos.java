@@ -1,10 +1,10 @@
 package ListaX;
 
 public class Oculos {
-        public String grau;
-        public String armacao;
-        public String tipo;
-        public String material;
+        private String grau;
+        private String armacao;
+        private String tipo;
+        private String material;
         
         public Oculos(String material, String tipo, String grau, String armacao){
             this.material = material;

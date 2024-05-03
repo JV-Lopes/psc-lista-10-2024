@@ -1,10 +1,10 @@
 package ListaX;
 
 public class Cadeira {
-        public String estilo;
-        public String tamanho;
-        public String cor;
-        public String material;
+        private String estilo;
+        private String tamanho;
+        private String cor;
+        private String material;
         
         public Cadeira(String material, String cor, String tamanho, String estilo){
             this.material = material;
