@@ -1,10 +1,10 @@
 package ListaX;
 
 public class Anel {
-        public String design;
-        public double tamanho;
-        public String cor;
-        public String material;
+        private String design;
+        private double tamanho;
+        private String cor;
+        private String material;
         
         public Anel(String material, String cor, double tamanho, String design){
             this.material = material;
